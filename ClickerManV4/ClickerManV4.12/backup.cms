@@ -1,50 +1,71 @@
-																			
-// 13.10.2024
+// 24.10.2024
 #name "New Script"
 
-			 // ??????????
-$veip = 50
+FOR($a, $a < 10)
 
+$veip = 75
 print("Hello, world!")
-RCLICK($_xmouse, $_ymouse)
-WAITMS ($veip)
-FOR($a, $a < 7)
-  KEYPRESS(#DOWN)
-  WAITMS ($veip)
-END_CYC
-KEYPRESS(#ENTER)
-WAITMS ($veip)
-WAIT(4)
-FOR($a, $a < 30)
-KEYPRESS(#TAB)
-  WAITMS (20)
-END_CYC
+WAITMS($veip)
+WAITMS($veip)
+WAITMS($veip)
+WAITMS($veip)
+
+LCLICK(638,107)
+WAITMS($veip)
+WAITMS($veip)
+WAITMS($veip)
+WAITMS($veip)
+WAITMS($veip)
+WAITMS($veip)
+WAITMS($veip)
+WAITMS($veip)
+WAITMS($veip)
+WAITMS($veip)
+WAITMS($veip)
+WAITMS($veip)
+WAITMS($veip)
+WAITMS($veip)
+WAITMS($veip)
+WAITMS($veip)
+WAITMS($veip)
+WAITMS($veip)
+WAITMS($veip)
+WAITMS($veip)
+WAITMS($veip)
+WAITMS($veip)
+
+RCLICK(637,147)
+WAITMS($veip)
+LCLICK(671,239)
+WAITMS($veip)
+LCLICK(276,699)
+WAITMS($veip)
+
 KEYPRESS(#ENTER)
 
-
-WAITMS ($veip)
 KEYDOWN (#CTRL)
-WAITMS ($veip)
-KEYDOWN (#W)
-WAITMS ($veip)
-KEYUP (#W)
-KEYUP (#CTRL)
-WAITMS ($veip)
-KEYPRESS(#UP)
-WAITMS ($veip)
-KEYPRESS(#B)
-WAITMS ($veip)
-KEYPRESS(#M)
-KEYPRESS(#ENTER)
-WAITMS ($veip)
-KEYDOWN (#CTRL)
-WAITMS ($veip)
+WAITMS($veip)
 KEYDOWN (#V)
-WAITMS ($veip)
+WAITMS($veip)
 KEYUP (#V)
+WAITMS($veip)
 KEYUP (#CTRL)
-WAITMS ($veip)
+WAITMS($veip)
+KEYDOWN (#SHIFT)
+WAITMS($veip)
+KEYDOWN (#ENTER)
+WAITMS($veip)
+KEYUP (#ENTER)
+WAITMS($veip)
+KEYUP (#SHIFT)
+WAITMS($veip)
+LCLICK(327,700)
+WAITMS($veip)
+LCLICK(713,50)
+WAITMS($veip)
+LCLICK(583,393)
+WAITMS($veip)
 
-
+END_CYC
 
 HALT
