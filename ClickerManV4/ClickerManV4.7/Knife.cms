@@ -6,7 +6,7 @@
 
 // begin your script here
 // яндексƒиск
-$veip = 50
+$veip = 30
 
 print("Hello, world!")
 
@@ -106,22 +106,63 @@ WAITMS ($veip)
 KEYUP (#CTRL)
 WAITMS ($veip)
 //B - 1
-KEYDOWN (#B)
-WAITMS ($veip)
-KEYUP (#B)
-WAITMS ($veip)
+//KEYDOWN (#B)
+//WAITMS ($veip)
+//KEYUP (#B)
+//WAITMS ($veip)
 //M - 1
-KEYDOWN (#M)
-WAITMS ($veip)
-KEYUP (#M)
-WAITMS ($veip)
+//KEYDOWN (#M)
+//WAITMS ($veip)
+//KEYUP (#M)
+//WAITMS ($veip)
 //ENTER - 1
 KEYDOWN (#ENTER)
 WAITMS ($veip)
 KEYUP (#ENTER)
 WAITMS ($veip)
-
-
-
-														 
+//CTRL + V - 1
+KEYDOWN (#CTRL)
+WAITMS ($veip)
+KEYDOWN (#V)
+WAITMS ($veip)
+KEYUP (#V)
+WAITMS ($veip)
+KEYUP (#CTRL)
+WAITMS ($veip)
+//SHIFT + ENTER - 1
+KEYDOWN (#SHIFT)
+WAITMS ($veip)
+KEYDOWN (#ENTER)
+WAITMS ($veip)
+KEYUP (#ENTER)
+WAITMS ($veip)
+KEYUP (#SHIFT)
+WAITMS ($veip)
+//ENTER - 1
+//KEYDOWN (#ENTER)
+//WAITMS ($veip)
+//KEYUP (#ENTER)
+//WAITMS ($veip)
+//SHIFT + ENTER - 1
+//KEYDOWN (#SHIFT)
+//WAITMS ($veip)
+//KEYDOWN (#ENTER)
+//WAITMS ($veip)
+//KEYUP (#ENTER)
+//WAITMS ($veip)
+//KEYUP (#SHIFT)
+//WAITMS ($veip)
+WAITMS (250)
+//CTRL + 3 - 1
+KEYDOWN (#CTRL)
+WAITMS ($veip)
+KEYDOWN (#3)
+WAITMS ($veip)
+KEYUP (#3)
+WAITMS ($veip)
+KEYUP (#CTRL)
+WAITMS ($veip)
+								
+//LCLICK(1236,541)
+						 
 halt // for single run

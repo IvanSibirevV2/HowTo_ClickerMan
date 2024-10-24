@@ -23,15 +23,15 @@ WAITMS ($veip)
 KEYUP (#CTRL)
 WAITMS ($veip)
 
-WHILE(WNDFIND("??????.????") = 0)
+WHILE(WNDFIND("Яндекс.Диск") = 0)
 WAITMS ($veip)
 END_CYC
 
 
 WAITMS ($veip)
-WNDPOS (WNDFIND("??????.????"), 0, 0)
+WNDPOS (WNDFIND("Яндекс.Диск"), 0, 0)
 WAITMS ($veip)
-WNDSIZE (WNDFIND("??????.????"), 0, 0)
+WNDSIZE (WNDFIND("Яндекс.Диск"), 0, 0)
 WAITMS ($veip)
 LCLICK(347,143)
 WAITMS ($veip)
@@ -106,22 +106,47 @@ WAITMS ($veip)
 KEYUP (#CTRL)
 WAITMS ($veip)
 //B - 1
-KEYDOWN (#B)
-WAITMS ($veip)
-KEYUP (#B)
-WAITMS ($veip)
+//KEYDOWN (#B)
+//WAITMS ($veip)
+//KEYUP (#B)
+//WAITMS ($veip)
 //M - 1
-KEYDOWN (#M)
-WAITMS ($veip)
-KEYUP (#M)
-WAITMS ($veip)
+//KEYDOWN (#M)
+//WAITMS ($veip)
+//KEYUP (#M)
+//WAITMS ($veip)
 //ENTER - 1
 KEYDOWN (#ENTER)
 WAITMS ($veip)
 KEYUP (#ENTER)
 WAITMS ($veip)
-
-
+//#CTRL+#V
+KEYDOWN (#CTRL)
+WAITMS ($veip)
+KEYDOWN (#V)
+WAITMS ($veip)
+KEYUP (#V)
+WAITMS ($veip)
+KEYUP (#CTRL)
+WAITMS ($veip)
+//#SHIFT+#ENTER
+KEYDOWN (#SHIFT)
+WAITMS ($veip)
+KEYDOWN (#ENTER)
+WAITMS ($veip)
+KEYUP (#ENTER)
+WAITMS ($veip)
+KEYUP (#SHIFT)
+WAITMS ($veip)
+//CTRL + 3 - 1
+KEYDOWN (#CTRL)
+WAITMS ($veip)
+KEYDOWN (#3)
+WAITMS ($veip)
+KEYUP (#3)
+WAITMS ($veip)
+KEYUP (#CTRL)
+WAITMS ($veip)
 
 														 
 halt // for single run
