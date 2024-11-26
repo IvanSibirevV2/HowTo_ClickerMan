@@ -29,12 +29,14 @@ END_CYC
 
 
 WAITMS ($veip)
-WNDPOS (WNDFIND("Яндекс.Диск"), 0, 0)
-WAITMS ($veip)
-WNDSIZE (WNDFIND("Яндекс.Диск"), 0, 0)
+WNDPOS(WNDFIND("Яндекс.Диск"), 0, 0)
+WNDSIZE(WNDFIND("Яндекс.Диск"), 0, 0)
 WAITMS ($veip)
 LCLICK(347,143)
+WHILE(WNDFIND("Яндекс.Диск") ! 0)
 WAITMS ($veip)
+END_CYC
+
 
 
 //$qwe=WNDFIND("??????.????")
@@ -45,66 +47,13 @@ WAITMS ($veip)
 //#WIN+#B - 1
 KEYDOWN (#WIN)
 WAITMS ($veip)
-KEYDOWN (#B)
+KEYDOWN (#5)
 WAITMS ($veip)
-KEYUP (#B)
+KEYUP (#5)
 WAITMS ($veip)
 KEYUP (#WIN)
 WAITMS ($veip)
-//#TAB - 1
-KEYDOWN (#TAB)
-WAITMS ($veip)
-KEYUP (#TAB)
-WAITMS ($veip)
-//#TAB - 2
-KEYDOWN (#TAB)
-WAITMS ($veip)
-KEYUP (#TAB)
-WAITMS ($veip)
-//#TAB - 2
-KEYDOWN (#TAB)
-WAITMS ($veip)
-KEYUP (#TAB)
-WAITMS ($veip)
-//#TAB - 4
-KEYDOWN (#TAB)
-WAITMS ($veip)
-KEYUP (#TAB)
-WAITMS ($veip)
-//RIGHT - 1
-KEYDOWN (#RIGHT)
-WAITMS ($veip)
-KEYUP (#RIGHT)
-WAITMS ($veip)
-//RIGHT - 2
-KEYDOWN (#RIGHT)
-WAITMS ($veip)
-KEYUP (#RIGHT)
-WAITMS ($veip)
-//RIGHT - 3
-KEYDOWN (#RIGHT)
-WAITMS ($veip)
-KEYUP (#RIGHT)
-WAITMS ($veip)
-//RIGHT - 4
-KEYDOWN (#RIGHT)
-WAITMS ($veip)
-KEYUP (#RIGHT)
-WAITMS ($veip)
-//ENTER - 4
-KEYDOWN (#ENTER)
-WAITMS ($veip)
-KEYUP (#ENTER)
-WAITMS ($veip)
-//CTRL + 2 - 1
-KEYDOWN (#CTRL)
-WAITMS ($veip)
-KEYDOWN (#2)
-WAITMS ($veip)
-KEYUP (#2)
-WAITMS ($veip)
-KEYUP (#CTRL)
-WAITMS ($veip)
+
 //B - 1
 //KEYDOWN (#B)
 //WAITMS ($veip)
@@ -138,91 +87,18 @@ KEYUP (#ENTER)
 WAITMS ($veip)
 KEYUP (#SHIFT)
 WAITMS ($veip)
-//CTRL + 3 - 1
-KEYDOWN (#CTRL)
-WAITMS ($veip)
-KEYDOWN (#3)
-WAITMS ($veip)
-KEYUP (#3)
-WAITMS ($veip)
-KEYUP (#CTRL)
-WAITMS ($veip)
+
 ///////////////////
 //////////////////
 /////////////////
 //#WIN+#B - 1
 KEYDOWN (#WIN)
 WAITMS ($veip)
-KEYDOWN (#B)
+KEYDOWN (#9)
 WAITMS ($veip)
-KEYUP (#B)
+KEYUP (#9)
 WAITMS ($veip)
 KEYUP (#WIN)
-WAITMS ($veip)
-//#TAB - 1
-KEYDOWN (#TAB)
-WAITMS ($veip)
-KEYUP (#TAB)
-WAITMS ($veip)
-//#TAB - 2
-KEYDOWN (#TAB)
-WAITMS ($veip)
-KEYUP (#TAB)
-WAITMS ($veip)
-//#TAB - 2
-KEYDOWN (#TAB)
-WAITMS ($veip)
-KEYUP (#TAB)
-WAITMS ($veip)
-//#TAB - 4
-KEYDOWN (#TAB)
-WAITMS ($veip)
-KEYUP (#TAB)
-WAITMS ($veip)
-//RIGHT - 1
-KEYDOWN (#RIGHT)
-WAITMS ($veip)
-KEYUP (#RIGHT)
-WAITMS ($veip)
-//RIGHT - 2
-KEYDOWN (#RIGHT)
-WAITMS ($veip)
-KEYUP (#RIGHT)
-WAITMS ($veip)
-//RIGHT - 3
-KEYDOWN (#RIGHT)
-WAITMS ($veip)
-KEYUP (#RIGHT)
-WAITMS ($veip)
-//RIGHT - 4
-KEYDOWN (#RIGHT)
-WAITMS ($veip)
-KEYUP (#RIGHT)
-WAITMS ($veip)
-//RIGHT - 5
-KEYDOWN (#RIGHT)
-WAITMS ($veip)
-KEYUP (#RIGHT)
-WAITMS ($veip)
-//RIGHT - 6
-KEYDOWN (#RIGHT)
-WAITMS ($veip)
-KEYUP (#RIGHT)
-WAITMS ($veip)
-//RIGHT - 7
-KEYDOWN (#RIGHT)
-WAITMS ($veip)
-KEYUP (#RIGHT)
-WAITMS ($veip)
-//RIGHT - 8
-KEYDOWN (#RIGHT)
-WAITMS ($veip)
-KEYUP (#RIGHT)
-WAITMS ($veip)
-//ENTER
-KEYDOWN (#ENTER)
-WAITMS ($veip)
-KEYUP (#ENTER)
 WAITMS ($veip)
 
 
