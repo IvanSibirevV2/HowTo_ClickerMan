@@ -6,7 +6,7 @@
 
 // begin your script here
 // ??????????
-$veip = 50
+$veip = 30
 
 print("Hello, world!")
 
@@ -147,6 +147,84 @@ KEYUP (#3)
 WAITMS ($veip)
 KEYUP (#CTRL)
 WAITMS ($veip)
+///////////////////
+//////////////////
+/////////////////
+//#WIN+#B - 1
+KEYDOWN (#WIN)
+WAITMS ($veip)
+KEYDOWN (#B)
+WAITMS ($veip)
+KEYUP (#B)
+WAITMS ($veip)
+KEYUP (#WIN)
+WAITMS ($veip)
+//#TAB - 1
+KEYDOWN (#TAB)
+WAITMS ($veip)
+KEYUP (#TAB)
+WAITMS ($veip)
+//#TAB - 2
+KEYDOWN (#TAB)
+WAITMS ($veip)
+KEYUP (#TAB)
+WAITMS ($veip)
+//#TAB - 2
+KEYDOWN (#TAB)
+WAITMS ($veip)
+KEYUP (#TAB)
+WAITMS ($veip)
+//#TAB - 4
+KEYDOWN (#TAB)
+WAITMS ($veip)
+KEYUP (#TAB)
+WAITMS ($veip)
+//RIGHT - 1
+KEYDOWN (#RIGHT)
+WAITMS ($veip)
+KEYUP (#RIGHT)
+WAITMS ($veip)
+//RIGHT - 2
+KEYDOWN (#RIGHT)
+WAITMS ($veip)
+KEYUP (#RIGHT)
+WAITMS ($veip)
+//RIGHT - 3
+KEYDOWN (#RIGHT)
+WAITMS ($veip)
+KEYUP (#RIGHT)
+WAITMS ($veip)
+//RIGHT - 4
+KEYDOWN (#RIGHT)
+WAITMS ($veip)
+KEYUP (#RIGHT)
+WAITMS ($veip)
+//RIGHT - 5
+KEYDOWN (#RIGHT)
+WAITMS ($veip)
+KEYUP (#RIGHT)
+WAITMS ($veip)
+//RIGHT - 6
+KEYDOWN (#RIGHT)
+WAITMS ($veip)
+KEYUP (#RIGHT)
+WAITMS ($veip)
+//RIGHT - 7
+KEYDOWN (#RIGHT)
+WAITMS ($veip)
+KEYUP (#RIGHT)
+WAITMS ($veip)
+//RIGHT - 8
+KEYDOWN (#RIGHT)
+WAITMS ($veip)
+KEYUP (#RIGHT)
+WAITMS ($veip)
+//ENTER
+KEYDOWN (#ENTER)
+WAITMS ($veip)
+KEYUP (#ENTER)
+WAITMS ($veip)
+
 
 														 
 halt // for single run

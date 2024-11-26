@@ -1,71 +1,230 @@
-// 24.10.2024
+// New Script
+// Author: Anonymous
+// Version: 1.0 (28.09.2024)
+
 #name "New Script"
 
-FOR($a, $a < 10)
+// begin your script here
+// ??????????
+$veip = 30
 
-$veip = 75
 print("Hello, world!")
-WAITMS($veip)
-WAITMS($veip)
-WAITMS($veip)
-WAITMS($veip)
-
-LCLICK(638,107)
-WAITMS($veip)
-WAITMS($veip)
-WAITMS($veip)
-WAITMS($veip)
-WAITMS($veip)
-WAITMS($veip)
-WAITMS($veip)
-WAITMS($veip)
-WAITMS($veip)
-WAITMS($veip)
-WAITMS($veip)
-WAITMS($veip)
-WAITMS($veip)
-WAITMS($veip)
-WAITMS($veip)
-WAITMS($veip)
-WAITMS($veip)
-WAITMS($veip)
-WAITMS($veip)
-WAITMS($veip)
-WAITMS($veip)
-WAITMS($veip)
-
-RCLICK(637,147)
-WAITMS($veip)
-LCLICK(671,239)
-WAITMS($veip)
-LCLICK(276,699)
-WAITMS($veip)
-
-KEYPRESS(#ENTER)
 
 KEYDOWN (#CTRL)
-WAITMS($veip)
-KEYDOWN (#V)
-WAITMS($veip)
-KEYUP (#V)
-WAITMS($veip)
-KEYUP (#CTRL)
-WAITMS($veip)
+WAITMS ($veip)
 KEYDOWN (#SHIFT)
-WAITMS($veip)
-KEYDOWN (#ENTER)
-WAITMS($veip)
-KEYUP (#ENTER)
-WAITMS($veip)
+WAITMS ($veip)
+KEYDOWN (#1)
+WAITMS ($veip)
+KEYUP (#1)
+WAITMS ($veip)
 KEYUP (#SHIFT)
-WAITMS($veip)
-LCLICK(327,700)
-WAITMS($veip)
-LCLICK(713,50)
-WAITMS($veip)
-LCLICK(583,393)
-WAITMS($veip)
+WAITMS ($veip)
+KEYUP (#CTRL)
+WAITMS ($veip)
 
+WHILE(WNDFIND("Яндекс.Диск") = 0)
+WAITMS ($veip)
 END_CYC
 
-HALT
+
+WAITMS ($veip)
+WNDPOS (WNDFIND("Яндекс.Диск"), 0, 0)
+WAITMS ($veip)
+WNDSIZE (WNDFIND("Яндекс.Диск"), 0, 0)
+WAITMS ($veip)
+LCLICK(347,143)
+WAITMS ($veip)
+
+
+//$qwe=WNDFIND("??????.????")
+//LOGCLEAR ()
+//LOGSHOW (1, 100,100)
+//LOGWRITE ($qwe)
+
+//#WIN+#B - 1
+KEYDOWN (#WIN)
+WAITMS ($veip)
+KEYDOWN (#B)
+WAITMS ($veip)
+KEYUP (#B)
+WAITMS ($veip)
+KEYUP (#WIN)
+WAITMS ($veip)
+//#TAB - 1
+KEYDOWN (#TAB)
+WAITMS ($veip)
+KEYUP (#TAB)
+WAITMS ($veip)
+//#TAB - 2
+KEYDOWN (#TAB)
+WAITMS ($veip)
+KEYUP (#TAB)
+WAITMS ($veip)
+//#TAB - 2
+KEYDOWN (#TAB)
+WAITMS ($veip)
+KEYUP (#TAB)
+WAITMS ($veip)
+//#TAB - 4
+KEYDOWN (#TAB)
+WAITMS ($veip)
+KEYUP (#TAB)
+WAITMS ($veip)
+//RIGHT - 1
+KEYDOWN (#RIGHT)
+WAITMS ($veip)
+KEYUP (#RIGHT)
+WAITMS ($veip)
+//RIGHT - 2
+KEYDOWN (#RIGHT)
+WAITMS ($veip)
+KEYUP (#RIGHT)
+WAITMS ($veip)
+//RIGHT - 3
+KEYDOWN (#RIGHT)
+WAITMS ($veip)
+KEYUP (#RIGHT)
+WAITMS ($veip)
+//RIGHT - 4
+KEYDOWN (#RIGHT)
+WAITMS ($veip)
+KEYUP (#RIGHT)
+WAITMS ($veip)
+//ENTER - 4
+KEYDOWN (#ENTER)
+WAITMS ($veip)
+KEYUP (#ENTER)
+WAITMS ($veip)
+//CTRL + 2 - 1
+KEYDOWN (#CTRL)
+WAITMS ($veip)
+KEYDOWN (#2)
+WAITMS ($veip)
+KEYUP (#2)
+WAITMS ($veip)
+KEYUP (#CTRL)
+WAITMS ($veip)
+//B - 1
+//KEYDOWN (#B)
+//WAITMS ($veip)
+//KEYUP (#B)
+//WAITMS ($veip)
+//M - 1
+//KEYDOWN (#M)
+//WAITMS ($veip)
+//KEYUP (#M)
+//WAITMS ($veip)
+//ENTER - 1
+KEYDOWN (#ENTER)
+WAITMS ($veip)
+KEYUP (#ENTER)
+WAITMS ($veip)
+//#CTRL+#V
+KEYDOWN (#CTRL)
+WAITMS ($veip)
+KEYDOWN (#V)
+WAITMS ($veip)
+KEYUP (#V)
+WAITMS ($veip)
+KEYUP (#CTRL)
+WAITMS ($veip)
+//#SHIFT+#ENTER
+KEYDOWN (#SHIFT)
+WAITMS ($veip)
+KEYDOWN (#ENTER)
+WAITMS ($veip)
+KEYUP (#ENTER)
+WAITMS ($veip)
+KEYUP (#SHIFT)
+WAITMS ($veip)
+//CTRL + 3 - 1
+KEYDOWN (#CTRL)
+WAITMS ($veip)
+KEYDOWN (#3)
+WAITMS ($veip)
+KEYUP (#3)
+WAITMS ($veip)
+KEYUP (#CTRL)
+WAITMS ($veip)
+///////////////////
+//////////////////
+/////////////////
+//#WIN+#B - 1
+KEYDOWN (#WIN)
+WAITMS ($veip)
+KEYDOWN (#B)
+WAITMS ($veip)
+KEYUP (#B)
+WAITMS ($veip)
+KEYUP (#WIN)
+WAITMS ($veip)
+//#TAB - 1
+KEYDOWN (#TAB)
+WAITMS ($veip)
+KEYUP (#TAB)
+WAITMS ($veip)
+//#TAB - 2
+KEYDOWN (#TAB)
+WAITMS ($veip)
+KEYUP (#TAB)
+WAITMS ($veip)
+//#TAB - 2
+KEYDOWN (#TAB)
+WAITMS ($veip)
+KEYUP (#TAB)
+WAITMS ($veip)
+//#TAB - 4
+KEYDOWN (#TAB)
+WAITMS ($veip)
+KEYUP (#TAB)
+WAITMS ($veip)
+//RIGHT - 1
+KEYDOWN (#RIGHT)
+WAITMS ($veip)
+KEYUP (#RIGHT)
+WAITMS ($veip)
+//RIGHT - 2
+KEYDOWN (#RIGHT)
+WAITMS ($veip)
+KEYUP (#RIGHT)
+WAITMS ($veip)
+//RIGHT - 3
+KEYDOWN (#RIGHT)
+WAITMS ($veip)
+KEYUP (#RIGHT)
+WAITMS ($veip)
+//RIGHT - 4
+KEYDOWN (#RIGHT)
+WAITMS ($veip)
+KEYUP (#RIGHT)
+WAITMS ($veip)
+//RIGHT - 5
+KEYDOWN (#RIGHT)
+WAITMS ($veip)
+KEYUP (#RIGHT)
+WAITMS ($veip)
+//RIGHT - 6
+KEYDOWN (#RIGHT)
+WAITMS ($veip)
+KEYUP (#RIGHT)
+WAITMS ($veip)
+//RIGHT - 7
+KEYDOWN (#RIGHT)
+WAITMS ($veip)
+KEYUP (#RIGHT)
+WAITMS ($veip)
+//RIGHT - 8
+KEYDOWN (#RIGHT)
+WAITMS ($veip)
+KEYUP (#RIGHT)
+WAITMS ($veip)
+//ENTER
+KEYDOWN (#ENTER)
+WAITMS ($veip)
+KEYUP (#ENTER)
+WAITMS ($veip)
+
+
+														 
+halt // for single run
