@@ -3,9 +3,8 @@
 #name "New Script"
 
 			 // ??????????
-$veip = 50
+$veip = 30
 
-print("Hello, world!")
 RCLICK($_xmouse, $_ymouse)
 WAITMS ($veip)
 FOR($a, $a < 7)
@@ -14,36 +13,7 @@ FOR($a, $a < 7)
 END_CYC
 KEYPRESS(#ENTER)
 WAITMS ($veip)
-WAIT(4)
-FOR($a, $a < 30)
-KEYPRESS(#TAB)
-  WAITMS (20)
-END_CYC
-KEYPRESS(#ENTER)
 
-
-WAITMS ($veip)
-KEYDOWN (#CTRL)
-WAITMS ($veip)
-KEYDOWN (#W)
-WAITMS ($veip)
-KEYUP (#W)
-KEYUP (#CTRL)
-WAITMS ($veip)
-KEYPRESS(#UP)
-WAITMS ($veip)
-KEYPRESS(#B)
-WAITMS ($veip)
-KEYPRESS(#M)
-KEYPRESS(#ENTER)
-WAITMS ($veip)
-KEYDOWN (#CTRL)
-WAITMS ($veip)
-KEYDOWN (#V)
-WAITMS ($veip)
-KEYUP (#V)
-KEYUP (#CTRL)
-WAITMS ($veip)
 
 
 
