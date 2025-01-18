@@ -36,7 +36,7 @@ KEYDOWN(#ENTER)
 WAITMS($veip)
 KEYUP(#ENTER)
 WAITMS($veip)
-WAITMS(2000)
+WAITMS(1000)
 //Ждем окно
 WHILE(WNDFIND("Добавить к архиву") = 0)
 WAITMS ($veip)
