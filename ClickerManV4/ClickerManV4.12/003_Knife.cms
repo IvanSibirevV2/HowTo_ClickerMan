@@ -5,6 +5,7 @@
 #name "New Script"
 
 // begin your script here
+// скрипт режет картинку из адоб ридера и тащит в юпитер
 // ??????????
 $veip = 30
 

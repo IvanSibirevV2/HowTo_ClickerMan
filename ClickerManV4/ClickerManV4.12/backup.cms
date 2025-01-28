@@ -1,97 +1,110 @@
-// 10.12.2024
+// New Script
+// Author: Anonymous
+// Version: 1.0 (28.09.2024)
+
 #name "New Script"
+
 // begin your script here
+// скрипт режет картинку из адоб ридера и тащит в юпитер
 // ??????????
 $veip = 30
-//#SHIFT + #F10 
-KEYDOWN(#SHIFT)
-WAITMS($veip)
-KEYDOWN(#F10)
-WAITMS($veip)
-KEYUP(#F10)
-WAITMS($veip)
-KEYUP(#SHIFT)
-WAITMS($veip)
-//FOR + 11 + #DOWN
-FOR($a,$a<11)
-//FOR($a,$a<10)
-  KEYDOWN(#DOWN)
-  WAITMS($veip)
-  KEYUP(#DOWN)
-  WAITMS($veip)
-END_CYC
-// #RIGHT
-KEYDOWN(#RIGHT)
-WAITMS($veip)
-KEYUP(#RIGHT)
-WAITMS($veip)
-//FOR + 6 + #DOWN
-FOR($b,$b<6)
-  KEYDOWN(#DOWN)
-  WAITMS($veip)
-  KEYUP(#DOWN)
-  WAITMS($veip)
-END_CYC
-// #ENTER
-KEYDOWN(#ENTER)
-WAITMS($veip)
-KEYUP(#ENTER)
-WAITMS($veip)
-WAITMS(1000)
-//Ждем окно
-WHILE(WNDFIND("Добавить к архиву") = 0)
+
+print("Hello, world!")
+
+KEYDOWN (#CTRL)
 WAITMS ($veip)
-END_CYC
-//Ставим окно
+KEYDOWN (#SHIFT)
 WAITMS ($veip)
-WNDPOS(WNDFIND("Добавить к архиву"), 0, 0)
+KEYDOWN (#1)
 WAITMS ($veip)
-//FOR + 15 + #TAB
-FOR($c,$c<15)
-  KEYDOWN(#TAB)
-  WAITMS($veip)
-  KEYUP(#TAB)
-  WAITMS($veip)
-END_CYC
-// #SPACE
-KEYDOWN(#SPACE)
-WAITMS($veip)
-KEYUP(#SPACE)
-WAITMS($veip)
-// #TAB
-KEYDOWN(#TAB)
-WAITMS($veip)
-KEYUP(#TAB)
-WAITMS($veip)
-// #TAB
-KEYDOWN(#TAB)
-WAITMS($veip)
-KEYUP(#TAB)
-WAITMS($veip)
-// #SPACE
-KEYDOWN(#SPACE)
-WAITMS($veip)
-KEYUP(#SPACE)
-WAITMS($veip)
-// #TAB
-KEYDOWN(#TAB)
-WAITMS($veip)
-KEYUP(#TAB)
-WAITMS($veip)
-// #CTRL + #V 
-KEYDOWN(#CTRL)
-WAITMS($veip)
-KEYDOWN(#V)
-WAITMS($veip)
-KEYUP (#V)
-WAITMS($veip)
+KEYUP (#1)
+WAITMS ($veip)
+KEYUP (#SHIFT)
+WAITMS ($veip)
 KEYUP (#CTRL)
-WAITMS($veip)
-// #ENTER
-KEYDOWN(#ENTER)
-WAITMS($veip)
-KEYUP(#ENTER)
-WAITMS($veip)
-//
-WAITMS(1000)
-HALT
+WAITMS ($veip)
+
+WHILE(WNDFIND("Яндекс.Диск") = 0)
+WAITMS ($veip)
+END_CYC
+
+
+WAITMS ($veip)
+WNDPOS(WNDFIND("Яндекс.Диск"), 0, 0)
+WNDSIZE(WNDFIND("Яндекс.Диск"), 0, 0)
+WAITMS ($veip)
+LCLICK(347,143)
+//Там проблема, яндекс диск скриншоты не сразу 
+//Схватывают в буфер обмена
+//По этому приходится дожидаться закрытия окна
+WHILE(WNDFIND("Яндекс.Диск") ! 0)
+WAITMS ($veip)
+END_CYC
+
+
+
+//$qwe=WNDFIND("??????.????")
+//LOGCLEAR ()
+//LOGSHOW (1, 100,100)
+//LOGWRITE ($qwe)
+
+//#WIN+#B - 1
+KEYDOWN (#WIN)
+WAITMS ($veip)
+KEYDOWN (#5)
+WAITMS ($veip)
+KEYUP (#5)
+WAITMS ($veip)
+KEYUP (#WIN)
+WAITMS ($veip)
+
+//B - 1
+//KEYDOWN (#B)
+//WAITMS ($veip)
+//KEYUP (#B)
+//WAITMS ($veip)
+//M - 1
+//KEYDOWN (#M)
+//WAITMS ($veip)
+//KEYUP (#M)
+//WAITMS ($veip)
+//ENTER - 1
+KEYDOWN (#ENTER)
+WAITMS ($veip)
+KEYUP (#ENTER)
+WAITMS ($veip)
+//#CTRL+#V
+KEYDOWN (#CTRL)
+WAITMS ($veip)
+KEYDOWN (#V)
+WAITMS ($veip)
+KEYUP (#V)
+WAITMS ($veip)
+KEYUP (#CTRL)
+WAITMS ($veip)
+//#SHIFT+#ENTER
+KEYDOWN (#SHIFT)
+WAITMS ($veip)
+KEYDOWN (#ENTER)
+WAITMS ($veip)
+KEYUP (#ENTER)
+WAITMS ($veip)
+KEYUP (#SHIFT)
+WAITMS ($veip)
+
+///////////////////
+//////////////////
+/////////////////
+//#WIN+#B - 1
+KEYDOWN (#WIN)
+WAITMS ($veip)
+KEYDOWN (#9)
+WAITMS ($veip)
+KEYUP (#9)
+WAITMS ($veip)
+KEYUP (#WIN)
+WAITMS ($veip)
+
+
+														 
+halt // for single run
