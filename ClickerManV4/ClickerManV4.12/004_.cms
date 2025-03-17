@@ -1,0 +1,55 @@
+// 28.01.2025
+#name "New Script"
+/////////////////////////////////////////
+//LOGCLEAR
+//LOGSHOW (1, 1,1)
+//LOGWRITE ("Сообщение")
+/////////////////////////////////////////
+$veip = 30
+/////////////////////////////////////////
+    RCLICK($_xmouse, $_ymouse)
+    WAITMS ($veip)
+	  FOR($a, $a < 5)
+      KEYPRESS(#DOWN)
+      WAITMS ($veip)
+    END_CYC
+		KEYPRESS(#ENTER)
+    WAITMS($veip)  
+		//#WIN + 9 - адоб риадер
+		KEYDOWN (#WIN)
+		WAITMS($veip)
+		KEYDOWN (#9)
+		WAITMS($veip)
+		KEYUP (#9)
+		WAITMS($veip)
+		KEYUP (#WIN)
+		WAITMS($veip)
+		//
+		LCLICK(4,178)
+		WAITMS($veip)
+		LCLICK(4,650)
+		WAITMS($veip)
+    ////		
+    KEYDOWN (#CTRL)
+    WAITMS ($veip)
+    KEYDOWN (#V)
+    WAITMS ($veip)
+    KEYUP (#V)
+    WAITMS ($veip)
+    KEYUP (#CTRL)
+    WAITMS ($veip)   
+		//#WIN + 9 - адоб риадер
+		KEYDOWN (#WIN)
+		WAITMS($veip)
+		KEYDOWN (#5)
+		WAITMS($veip)
+		KEYUP (#5)
+		WAITMS($veip)
+		KEYUP (#WIN)
+		WAITMS($veip)
+		//
+		LCLICK(400,250)
+		WAITMS($veip)
+    ////		
+print("HALT")
+HALT

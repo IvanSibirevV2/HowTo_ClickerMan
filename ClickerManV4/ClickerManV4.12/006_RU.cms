@@ -1,0 +1,27 @@
+// 10.03.2025
+#name "New Script"
+
+
+print("Hello, world!")
+$t=50
+LCLICK($_xmouse,$_ymouse)
+WAITMS($t)
+LCLICK($_xmouse,$_ymouse)
+WAITMS($t)
+LCLICK($_xmouse,$_ymouse)   
+WAITMS($t)
+KEYDOWN (#ALT)
+WAITMS ($t)
+KEYDOWN (#J)
+WAITMS ($t)
+KEYUP (#J)
+WAITMS ($t)
+KEYUP (#ALT)  
+WAITMS($t)
+WAITMS(500)
+FOR($a, $a < 6)
+KEYDOWN (#TAB)
+WAITMS($t)
+END_CYC
+KEYDOWN (#ENTER)
+HALT

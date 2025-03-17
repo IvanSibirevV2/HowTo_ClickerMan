@@ -1,5 +1,2 @@
-C:\D\GitHub\GitHubOll\HowTo_ClickerMan\ClickerManV4\ClickerManV4.12\001_Stilet.cms
-C:\D\GitHub\GitHubOll\HowTo_ClickerMan\ClickerManV4\ClickerManV4.12\001_StiletFolser.cms
-C:\D\GitHub\GitHubOll\HowTo_ClickerMan\ClickerManV4\ClickerManV4.12\Stilet.cms
-C:\D\GitHub\GitHubOll\HowTo_ClickerMan\ClickerManV4\ClickerManV4.12\Knife.cms
-C:\D\GitHub\GitHubOll\HowTo_ClickerMan\ClickerManV4\ClickerManV4.12\Cherp.cms
+C:\D\GitHub\GitHubOll\HowTo_ClickerMan\ClickerManV4\ClickerManV4.12\003_Cherp2.cms
+C:\D\GitHub\GitHubOll\HowTo_ClickerMan\ClickerManV4\ClickerManV4.12\002_Cherp.cms

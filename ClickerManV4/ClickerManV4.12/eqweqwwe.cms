@@ -1,0 +1,15 @@
+// 06.02.2025
+#name "New Script"
+
+
+FOR($a, $a < 20)
+
+print("Hello, world!")
+KEYPRESS(189)
+KEYPRESS(#SPACE)
+KEYPRESS(#LEFT)									
+KEYPRESS(#LEFT)
+KEYPRESS(#DOWN)
+END_CYC
+
+HALT

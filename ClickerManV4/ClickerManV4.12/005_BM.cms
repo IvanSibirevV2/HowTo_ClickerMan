@@ -1,0 +1,14 @@
+// 05.03.2025
+#name "New Script"
+
+
+print("Hello, world!")
+FOR($a, $a < 50)
+KEYPRESS(#B)
+WAITMS(10)
+KEYPRESS(#M)
+WAITMS(10)
+END_CYC
+
+
+HALT

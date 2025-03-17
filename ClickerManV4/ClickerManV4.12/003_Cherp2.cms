@@ -15,10 +15,10 @@ FOR($a=0, $a < 6)
 END_CYC
 KEYPRESS(#ENTER)
 WAITMS ($veip)
-//WAITMS (3000)
-//FOR($a=0, $a < 23)
-//  KEYPRESS(#TAB)
-//  WAITMS ($veip)
-//END_CYC
+WAITMS (3000)
+FOR($a=0, $a < 23)
+ KEYPRESS(#TAB)
+ WAITMS ($veip)
+END_CYC
 
 HALT
