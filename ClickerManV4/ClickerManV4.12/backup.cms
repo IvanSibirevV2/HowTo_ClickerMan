@@ -1,10 +1,24 @@
-// 15.03.2025
+																			
+// 13.10.2024
 #name "New Script"
+//Скрипт ищет картинку для распознования кажется
+//в яндекс диске
+//Запускается с наведенной мышкой в юпитере
+			 // ??????????
+$veip = 1
 
+RCLICK($_xmouse, $_ymouse)
+WAITMS ($veip)
+FOR($a=0, $a < 6)
+  KEYPRESS(#DOWN)
+  WAITMS ($veip)
+END_CYC
+KEYPRESS(#ENTER)
+WAITMS ($veip)
+//WAITMS (3000)
+//FOR($a=0, $a < 23)
+//  KEYPRESS(#TAB)
+//  WAITMS ($veip)
+//END_CYC
 
-print("Hello, world!")
-KEYPRESS(#BACKSPACE)
-KEYPRESS(#SPACE)
-KEYPRESS(#HOME)
 HALT
-
