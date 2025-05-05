@@ -5,7 +5,7 @@
 //в яндекс диске
 //Запускается с наведенной мышкой в юпитере
 			 // ??????????
-$veip = 1
+$veip = 10
 
 RCLICK($_xmouse, $_ymouse)
 WAITMS ($veip)
@@ -20,5 +20,21 @@ WAITMS ($veip)
 //  KEYPRESS(#TAB)
 //  WAITMS ($veip)
 //END_CYC
+
+WHILE(iskeydown(1)=0)
+WAITMS ($veip)
+END_CYC
+WAITMS (250)
+KEYDOWN (#CTRL)
+WAITMS ($veip)
+KEYDOWN (#w)
+WAITMS ($veip)
+KEYUP (#w)
+WAITMS ($veip)
+KEYUP (#CTRL)
+WAITMS ($veip)
+
+
+
 
 HALT
