@@ -1,40 +1,28 @@
-																			
-// 13.10.2024
+// New Script
+// Author: Anonymous
+// Version: 1.0 (28.09.2024)
+
 #name "New Script"
-//Скрипт ищет картинку для распознования кажется
-//в яндекс диске
-//Запускается с наведенной мышкой в юпитере
-			 // ??????????
-$veip = 10
 
-RCLICK($_xmouse, $_ymouse)
-WAITMS ($veip)
-FOR($a=0, $a < 6)
-  KEYPRESS(#DOWN)
-  WAITMS ($veip)
-END_CYC
-KEYPRESS(#ENTER)
-WAITMS ($veip)
-//WAITMS (3000)
-//FOR($a=0, $a < 23)
-//  KEYPRESS(#TAB)
-//  WAITMS ($veip)
-//END_CYC
+// begin your script here
+// скрипт режет картинку из адоб ридера и тащит в юпитер
+// ??????????
+$veip = 30
 
-WHILE(iskeydown(1)=0)
-WAITMS ($veip)
-END_CYC
-WAITMS (250)
+print("Hello, world!")
+
 KEYDOWN (#CTRL)
 WAITMS ($veip)
-KEYDOWN (#w)
+KEYDOWN (#SHIFT)
 WAITMS ($veip)
-KEYUP (#w)
+KEYDOWN (#1)
+WAITMS ($veip)
+KEYUP (#1)
+WAITMS ($veip)
+KEYUP (#SHIFT)
 WAITMS ($veip)
 KEYUP (#CTRL)
 WAITMS ($veip)
 
-
-
-
-HALT
+														 
+halt // for single run
